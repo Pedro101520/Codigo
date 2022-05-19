@@ -24,5 +24,4 @@ while (dia_i != dia_f) or (mes_i != mes_f) or (ano_i != ano_f):
             if (ano_i % 4 == 0) and (ano_i % 100 != 0) or (ano_i % 400 == 0):
                 meses[2] = 29
             else: meses[2] = 28
-print ("A nova data é: {:02}/{:02}/{:04}".format(dia_i,mes_i,ano_i))
-print ("Se passaram: ", qt_dias, "dias")
+print ("A nova data é: {:02}/{:02}/{:04}".format(dia_i,mes_i,ano_i), "e se passaram: ", qt_dias, "dias")
