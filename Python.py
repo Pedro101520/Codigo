@@ -1,3 +1,4 @@
+print ("Primeiro teste de Python no GitHub")
 meses = [00,31,28,31,30,31,30,31,31,30,31,30,31]
 dia_i = mes_i = ano_i = dia_f = mes_f = ano_f = 0
 dia_i = int (input("Digite o dia inicial"))
